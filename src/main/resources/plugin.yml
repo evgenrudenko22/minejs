@@ -1,0 +1,19 @@
+name: MineJS
+version: '1.0-SNAPSHOT'
+main: net.evgenru22.mineJS.MineJS
+api-version: '1.21'
+authors: [ evgenru22 ]
+description: Tool for admins to modify server with JS
+
+commands:
+  script:
+    description: Command of MineJS plugin
+    permission: minejs.command
+    aliases: [s, minejs, js]
+    usage: /script <help|load|unload|reload> [file]
+
+permissions:
+  minejs.command:
+    default: op
+
+softdepend: ["PlaceholderAPI", "Oraxen"]
