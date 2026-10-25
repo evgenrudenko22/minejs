@@ -31,7 +31,7 @@ public class CommandManager {
         Command cmd = new Command(name, description, usage, aliases) {
             @Override
             public boolean execute(@NotNull CommandSender sender, @NotNull String commandLabel, @NotNull String @NotNull [] args) {
-                value.execute();
+                value.execute(sender, args);
                 return true;
             }
         };
