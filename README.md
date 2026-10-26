@@ -10,7 +10,7 @@ Like Skript, but with a real programming language, powered by GraalJS.
 ![Platform](https://img.shields.io/badge/Paper-supported-blue?style=flat-square)
 ![Release](https://img.shields.io/github/v/release/evgenrudenko22/minejs?style=flat-square)
 
-[Documentation](https://evgenrudenko22.github.io/MineJS) · [Download](https://github.com/YOUR_USERNAME/MineJS/releases) · [Report a bug](https://github.com/evgenrudenko22/MineJS/issues)
+[Documentation](https://evgenrudenko22.github.io/minejs) · [Download](https://github.com/evgenrudenko22/minejs/releases) · [Report a bug](https://github.com/evgenrudenko22/minejs/issues)
 
 </div>
 
@@ -56,7 +56,7 @@ events.on("player interact", event => {
 ## Installation
 
 1. Make sure your server runs **Java 21** or newer (required by Minecraft 1.21+).
-2. Download the latest `MineJS.jar` from the [Releases](https://github.com/YOUR_USERNAME/MineJS/releases) page.
+2. Download the latest `MineJS.jar` from the [Releases](https://github.com/evgenrudenko22/minejs/releases) page.
 3. Put the jar into your server's `plugins/` folder.
 4. Start the server. MineJS will create its folder in `plugins/MineJS/`.
 5. Put your `.js` scripts into the scripts folder and load them with `/script load <filename>`.
@@ -79,7 +79,7 @@ Edit your script, run `/script reload <filename>`, and see the change instantly.
 | Other 1.21.x versions | Expected to work, not fully tested |
 | Spigot / Bukkit forks | Not officially tested yet   |
 
-Found a problem on another version or platform? Please [open an issue](https://github.com/YOUR_USERNAME/MineJS/issues).
+Found a problem on another version or platform? Please [open an issue](https://github.com/evgenrudenko22/minejs/issues).
 
 ## Integrations
 
@@ -100,7 +100,7 @@ Found a problem on another version or platform? Please [open an issue](https://g
 
 ## Documentation
 
-Full documentation is coming soon at **https://YOUR_USERNAME.github.io/MineJS**.
+Documentation on [GitHub Pages](https://evgenrudenko22.github.io/minejs]
 
 ## Roadmap
 
